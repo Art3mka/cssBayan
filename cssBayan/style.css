@@ -64,10 +64,10 @@
     width: 25rem;
 }
 
-.accordeon__item.active .item__content{
+.accordeon__item:focus .item__content {
     max-height: 100%;
 }
 
-.accordeon__item.active .item__title{
+.accordeon__item:focus .item__title{
     color: #000;
 }

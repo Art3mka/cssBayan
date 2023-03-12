@@ -30,4 +30,6 @@
   }
  body {
   background-color: #bfe1f5;
+  overflow-x: hidden;
+  width: 100vw;
  }
