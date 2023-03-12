@@ -43,12 +43,23 @@
     max-height: 50rem;
 }
 
+.accordeon__item:hover .item__title_icon{
+    transform: rotateZ(45deg);
+}
 .item__title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 0.5rem;
     color: #ee5757;
     font-weight: 700;
+}
+
+.item__title_icon {
+    transition: all .2s linear;
+    width: 1.3rem;
 }
 
 .item__content {
@@ -70,4 +81,8 @@
 
 .accordeon__item:focus .item__title{
     color: #000;
+}
+
+.accordeon__item:focus .item__title_icon{
+    transform: rotate(45deg);
 }
