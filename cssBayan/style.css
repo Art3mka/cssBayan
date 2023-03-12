@@ -6,19 +6,10 @@
     padding: 0 1rem;
 }
 
-.accordeon {
-
-}
-
-.accordeon__content {
-
-}
-
 .accordeon__title {
     font-size: 2rem;
     text-align: center;
     padding: 1rem 0;
-    margin-bottom: 1rem;
     border-bottom: 2px solid #665a5a;
 }
 
@@ -39,8 +30,9 @@
 
 .accordeon__item {
     width: 100%;
+    padding-top: 1rem;
     border-bottom: 2px solid #665a5a;
-    margin-bottom: 1.5rem;
+
 }
 
 .accordeon__item:hover .item__content {
@@ -56,7 +48,7 @@
     padding: 0 1rem;
     font-size: 1.5rem;
     text-align: center;
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.875rem;
     color: #ee5757;
     font-weight: 700;
 }
@@ -69,8 +61,7 @@
 .item__content {
     max-height: 0rem;
     overflow: hidden;
-    transition: all 0.3s linear;
-
+    transition: all 0.2s linear;
 }
 
 .item__img {
