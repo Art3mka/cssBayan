@@ -3,7 +3,7 @@
 .container {
     margin: 0 auto;
     max-width: 1440px;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
 }
 
 .accordeon {
@@ -27,6 +27,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.accordeon__inner:hover {
+    cursor: pointer;
 }
 
 .accordeon__inner:hover .item__title{
@@ -85,4 +89,23 @@
 
 .accordeon__item:focus .item__title_icon{
     transform: rotate(45deg);
+}
+
+
+/*-------TABLET 820PX-----------*/
+@media (max-width: 51.25rem) {
+    html {
+        font-size: 14px;
+    }
+}
+
+/*-------MOBILE 320PX-----------*/
+@media (max-width: 22.85rem) {
+    html {
+        font-size: 12px;
+    }
+
+    .item__img {
+        width: 15rem;
+    }
 }
