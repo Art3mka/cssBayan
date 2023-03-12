@@ -3,7 +3,50 @@
 .container {
     margin: 0 auto;
     max-width: 1440px;
+    padding: 0 0.5rem;
 }
 
 .accordeon {
+
+}
+
+.accordeon__content {
+
+}
+
+.accordeon__title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #665a5a;
+}
+
+.accordeon__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordeon__item {
+    
+}
+
+.accordeon__item.active .item__content{
+    max-height: 100%;
+}
+
+.item__title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.item__content {
+    /* opacity: 0; */
+    max-height: 0;
+    overflow: hidden;
+}
+
+.item__img {
+    width: 25rem;
 }
